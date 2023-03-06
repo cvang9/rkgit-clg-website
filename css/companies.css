@@ -1,0 +1,61 @@
+@keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.companies-hiring {
+    position: relative;
+    overflow: hidden;
+}
+
+.ring {
+    width: 1000px;
+    height: 1000px;
+    border: 0.5px solid #a5c8ff;
+    border-radius: 100%;
+    background-color: #f1f6fe;
+}
+
+.company-contianer {
+    background-color: transparent;
+    width: 1px;
+    height: 540px;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 12% 100%;
+    animation: rotation 30s infinite linear;
+}
+
+.companies {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    /* animation: rotation 30s infinite linear;
+    animation-direction: reverse; */
+}
+
+.companies-hiring-banner {
+    position: absolute;
+    top: 450px;
+    height: 700px;
+    width: 100%;
+    background-color: #0e1d34;
+}

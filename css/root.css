@@ -1,0 +1,24 @@
+:root {
+    --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Colors */
+:root {
+    --color-primary: #0d42ff;
+    --color-secondary: #0e1d34;
+    --h-c : rgb(26, 15, 53);
+    --text-color : black;
+    --theme-color : rgb(26, 15, 53);
+    --clg-clr : white;
+    --sub-menu-bg: rgb(237, 235, 241);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: var(--font-default);
+}
