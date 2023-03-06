@@ -1,41 +1,51 @@
-.logo{
+.logo {
     width: 3.1rem;
     height: 3rem;
     background: url("./res/image/rkgitlogo.png") no-repeat center;
     background-size: 150px;
 }
+
 nav {
-    background-color: var(--theme-color);
+    background-color: var(--color-secondary);
     padding: 10px !important;
 }
+
 .navbar-nav li {
-    color: var(--clg-clr)!important;
+    color: var(--clg-clr) !important;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
     text-decoration: none;
-    color: var(--clg-clr)!important;
+    color: var(--clg-clr) !important;
 }
-.sub-menu{
+
+.sub-menu {
     display: none;
 }
-.sub-menu ul{
+
+.sub-menu ul {
     list-style: none;
 }
-.nav-items{
+
+.nav-items {
     padding: 0.2rem;
     cursor: pointer;
 }
-.border-line{
+
+.border-line {
     border: 1px solid gray;
 }
-#navbarNavDropdown ul{
+
+#navbarNavDropdown ul {
     justify-content: space-evenly;
 }
-.nav-items:hover{
+
+.nav-items:hover {
     text-shadow: 1px 1px 10px white;
     /* box-shadow: 0px 2px white; */
 }
-.nav-items:hover .sub-menu{
+
+.nav-items:hover .sub-menu {
     display: block;
     text-shadow: none;
     position: absolute;
@@ -43,59 +53,71 @@ nav {
     opacity: 100%;
     animation: nav-menu 0.3s linear;
     font-size: 0.8em;
+    z-index: 10;
 }
+
 @keyframes nav-menu {
-    0%{
+    0% {
         transform: rotateY(45deg);
     }
-    100%{
+
+    100% {
         transform: rotateY(0deg);
     }
 }
-.sub-cont{
+
+.sub-cont {
     position: relative;
     right: 3rem;
 }
-.sub-cont ul{
+
+.sub-cont ul {
     padding: 1.5rem 0 1.5rem 1.5rem;
 }
-.sub-cont ul li:hover{
+
+.sub-cont ul li:hover {
     background-color: var(--theme-color);
     color: white;
     border-radius: 5px;
 }
-.sub-cont ul li:hover a{
-    color: rgb(245, 243, 243)!important;
+
+.sub-cont ul li:hover a {
+    color: rgb(245, 243, 243) !important;
 }
-.sub-cont ul li{
+
+.sub-cont ul li {
     padding: 0.2rem;
-    color: rgb(51, 48, 48)!important;
+    color: rgb(51, 48, 48) !important;
 }
-.sub-cont .row{
+
+.sub-cont .row {
     background-color: var(--sub-menu-bg);
 }
-.sub-cont ul li a{
+
+.sub-cont ul li a {
     padding-left: 5px;
     font-size: medium;
-    color: black!important;
+    color: black !important;
 }
-.nav-items li{
+
+.nav-items li {
     padding-bottom: 0.3rem;
     margin-bottom: 0.5rem;
 }
 
-.nav-items ul h3{
+.nav-items ul h3 {
     margin-top: 0.5rem;
     color: var(--theme-color);
     cursor: default;
 }
-.nav-items:hover .s-right{
-    left: 81vw!important;
+
+.nav-items:hover .s-right {
+    left: 81vw !important;
     white-space: nowrap;
 }
 
-.sub-btn{
-    display:none;
+.sub-btn {
+    display: none;
     width: 100vw;
     text-shadow: none;
     margin-top: 5px;
@@ -106,120 +128,155 @@ nav {
     animation: nav-menu 0.3s linear;
     white-space: nowrap;
 }
-.nav-tgl-btn li{
+
+.nav-tgl-btn li {
     padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
 }
-.nav-tgl-btn li a{
+
+.nav-tgl-btn li a {
     text-decoration: none;
     padding-bottom: 2px;
-    color: var(--text-color)!important;
+    color: var(--text-color) !important;
 }
-.clg-code{
+
+.clg-code {
     font-size: 1rem;
 }
-.clg-name{
-    font-family: Merriweather,serif;
+
+.clg-name {
+    font-family: Merriweather, serif;
     color: var(--clg-clr);
 }
-.social-links{
+
+.social-links {
     height: 2rem;
     width: 2rem;
     object-fit: center;
 }
-.rkg-banner{
+
+.rkg-banner {
     width: 60vw;
 }
-.aicte-banner{
+
+.aicte-banner {
     width: 7rem;
 }
-.aktu-banner{
+
+.aktu-banner {
     width: 7rem;
 }
-.NBA-banner{
+
+.NBA-banner {
     width: 11vw;
 }
-.sm-banner{
-    height: 11vh!important;
+
+.sm-banner {
+    height: 11vh !important;
 }
-.sm-ban-con{
+
+.sm-ban-con {
     width: 30vw;
 }
-.obj-fit{
+
+.obj-fit {
     height: 15vh;
     object-fit: center;
 }
-.contact{
-    background-color: var(--theme-color);
+
+.contact {
+    background-color: var(--color-secondary);
     color: white;
     padding: 5px;
 }
-.contact span{
+
+.contact span {
     cursor: pointer;
 }
-.vw-40{
+
+.vw-40 {
     width: 40vw;
 }
+
 @media (width<1336px) {
-    .rkg-banner{
+    .rkg-banner {
         width: 55vw;
     }
-    .sm-ban-con{
+
+    .sm-ban-con {
         width: 40vw;
     }
-    .sm-banner{
-        height: 5rem!important;
+
+    .sm-banner {
+        height: 5rem !important;
     }
-    .obj-fit{
+
+    .obj-fit {
         height: 12vh;
     }
-    .contact{
+
+    .contact {
         font-size: 0.5rem;
     }
-    .NBA-banner{
+
+    .NBA-banner {
         width: 6.5rem;
     }
-    .aicte-banner{
+
+    .aicte-banner {
         width: 5rem;
     }
-    .aktu-banner{
+
+    .aktu-banner {
         width: 5rem;
     }
-    nav{
+
+    nav {
         height: 5vh;
         padding: 0px !important;
     }
-    nav .nav-tgl-btn{
+
+    nav .nav-tgl-btn {
         height: 4vh;
     }
-    nav .nav-tgl-btn span{
+
+    nav .nav-tgl-btn span {
         filter: invert(1);
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         font-size: 1rem;
         border: 0px;
-        z-index: 1;
+        z-index: 10;
     }
-}@media (width < 753px){
-    .sm-banner{
-        height: 2.2rem!important;
+}
+
+@media (width < 753px) {
+    .sm-banner {
+        height: 2.2rem !important;
     }
-    .rkg-banner{
+
+    .rkg-banner {
         width: 58vw;
     }
-    .obj-fit{
+
+    .obj-fit {
         height: 7vh;
     }
-    .sm-ban-con{
+
+    .sm-ban-con {
         width: 40vw;
     }
-    .NBA-banner{
+
+    .NBA-banner {
         width: 3.5rem;
     }
-    .aicte-banner{
+
+    .aicte-banner {
         width: 2.2rem;
     }
-    .aktu-banner{
+
+    .aktu-banner {
         width: 2rem;
     }
 }
