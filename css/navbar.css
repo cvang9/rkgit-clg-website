@@ -91,7 +91,7 @@ nav {
 }
 
 .sub-cont .row {
-    background-color: var(--sub-menu-bg);
+    background-color: white;
 }
 
 .sub-cont ul li a {
