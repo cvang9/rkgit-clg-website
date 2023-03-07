@@ -14,7 +14,7 @@
     }
 }
 
-.navbars {
+.clg-navbars {
     box-shadow: 0px 0px 10px grey;
 }
 
@@ -29,7 +29,7 @@
     transition: 0.5s;
 }
 
-.nav-logo-banner {
+.clg-nav-logo-banner {
     display: flex;
     gap: 10px;
     padding: 10px;
@@ -37,52 +37,52 @@
     transition: 0.5s;
 }
 
-.nav-logo {
+.clg-nav-logo {
     flex-grow: 1;
     display: flex;
     gap: 10px;
 }
 
-.nav-logo-img {
+.clg-nav-logo-img {
     width: 70px;
     height: 70px;
     transition: 0.5s;
 }
 
-.nav-logo-heading {
+.clg-nav-logo-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.nav-name,
-.nav-sub-name {
+.clg-nav-name,
+.clg-nav-sub-name {
     font-weight: bold;
     color: #34469d;
     transition: 0.5s;
 }
 
-.nav-name {
+.clg-nav-name {
     margin-top: -5px;
     font-size: 26px;
 }
 
-.nav-sub-name {
+.clg-nav-sub-name {
     font-size: 16px;
 }
 
-.navigation-items {
+.clg-navigation-items {
     overflow-x: auto;
     display: flex;
     padding: 0px 10px;
     gap: 10px;
 }
 
-.navigation-items::-webkit-scrollbar {
+.clg-navigation-items::-webkit-scrollbar {
     width: 0px;
 }
 
-.nav-dropdown-btn {
+.clg-nav-dropdown-btn {
     width: 100px;
     padding: 10px;
     background-color: white;
@@ -94,13 +94,13 @@
     transition: 0.5s;
 }
 
-.nav-dropdown :hover,
-.nav-dropdown-btn :hover {
+.clg-nav-dropdown :hover,
+.clg-nav-dropdown-btn :hover {
     background-color: #34469d;
     color: white;
 }
 
-.nav-dropdown-container {
+.clg-nav-dropdown-container {
     display: none;
     position: absolute;
     left: 0px;
@@ -109,28 +109,28 @@
     box-shadow: 0px 15px 15px #e8e8e8;
 }
 
-.nav-dropdown:hover .nav-dropdown-container {
+.clg-nav-dropdown:hover .clg-nav-dropdown-container {
     display: flex;
     background-color: #34469d;
     color: white;
     animation: slideDown 0.2s linear;
 }
 
-.nav-dropdown-container-section {
+.clg-nav-dropdown-container-section {
     flex-grow: 1;
 }
 
-.nav-dropdown-container-section h2 {
+.clg-nav-dropdown-container-section h2 {
     text-decoration: underline;
     margin-left: 20px;
 }
 
-.nav-dropdown-container-section ul {
+.clg-nav-dropdown-container-section ul {
     display: flex;
     flex-direction: column;
 }
 
-.nav-section-item {
+.clg-nav-section-item {
     font-weight: bold;
     padding: 5px;
     border-radius: 5px;
@@ -138,7 +138,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .navigation-items {
+    .clg-navigation-items {
         padding: 0px;
         margin: 0px;
         gap: 0px;
@@ -150,24 +150,24 @@
         font-size: 7px;
     }
 
-    .nav-logo-banner {
+    .clg-nav-logo-banner {
         padding: 5px;
     }
 
-    .nav-logo-img {
+    .clg-nav-logo-img {
         width: 30px;
         height: 30px;
     }
 
-    .nav-name {
+    .clg-nav-name {
         font-size: 16px;
     }
 
-    .nav-sub-name {
+    .clg-nav-sub-name {
         font-size: 10px;
     }
 
-    .nav-dropdown-container {
+    .clg-nav-dropdown-container {
         flex-direction: column;
     }
 }
