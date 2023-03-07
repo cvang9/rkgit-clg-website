@@ -1,4 +1,10 @@
-
+:root{
+    --h-c : rgb(26, 15, 53);
+    --text-color : black;
+    --theme-color : #34469d;
+    --clg-clr : white;
+    --sub-menu-bg: rgb(237, 235, 241);
+}
 .clg-navbars {
     box-shadow: 0px 0px 10px grey;
 }
@@ -67,16 +73,7 @@
     width: 0px;
 }
 /* new css */
-:root{
-    --h-c : rgb(26, 15, 53);
-    --text-color : black;
-    --theme-color : #34469d;
-    --clg-clr : white;
-    --sub-menu-bg: rgb(237, 235, 241);
-}
-body{
-    overflow: hidden;
-}
+
 .logo{
     width: 3.1rem;
     height: 3rem;
