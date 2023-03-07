@@ -1,0 +1,75 @@
+.contact{
+    background-color: #34469d;
+    color: white;
+    font-family: Raleway,sans-serif;
+    background: url('https://www.gehealthcare.in/-/jssmedia/global/products/images/clinical-view/background_blue.jpg?h=1080&iar=0&w=1920&rev=e10a4cc4c76344bf818ea0bc8671eba5&hash=3706E51C1D9426A783E16E75950A2635') center no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+.contact .contact-about p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.contact .contact-about h3 {
+    font-size: 28px;
+    margin: 0 0 10px;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.contact .php-email-form button[type=submit] {
+    background: transparent;
+    border: 2px solid;
+    padding: 10px 24px;
+    color: #fff;
+    transition: .4s;
+    border-radius: 50px;
+}
+.section-title h2{
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+}
+.section-title h2::after, .section-title h2::before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #f1f1f3;
+    display: inline-block;
+}
+.section-title h2::before {
+    margin: 0 15px 10px 0;
+}
+.section-title h2::after {
+    margin: 0 0 10px 15px;
+}
+.form-control{
+    background-color: transparent!important;
+    color: #fff!important;
+}
+.form-control::placeholder{
+    color: rgb(158, 156, 156)!important;
+}
+
+#footer{
+    background: #fff;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+    padding: 20px 0;
+    color: #222;
+    font-size: 14px;
+}
+#footer .footer-links a {
+    color: #222;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.section-title {
+    text-align: center;
+    padding: 20px 0 15px 0;
+}
