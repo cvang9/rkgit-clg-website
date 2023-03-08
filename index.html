@@ -46,6 +46,22 @@
             </div>
         </div>
         <div class="clg-navigation-items">
+            <div  class="tgl-btn">
+                <i onclick="showMenu(1)" class="bi bi-justify"></i>
+                <div class="mob-sub-menu">
+                    <div onclick="showMenu(0)" class="d-flex tgl-btn mob-btn">
+                        <i class="bi bi-x-lg"></i>
+                    </div>
+                    <ul>
+                        <li>About</li>
+                        <li>Admission</li>
+                        <li>Academics</li>
+                        <li>Gallery</li>
+                        <li>Allumini</li>
+                        <li>Training</li>
+                    </ul>
+                </div>
+            </div>
             <div class="clg-nav-dropdown">
                 <ul class="navbar-nav d-flex w-100">
                     <li class="nav-items scrollto">About us
@@ -211,14 +227,6 @@
 
     <!-- Image Slider -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-pause="false">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="res/image/img1.png" alt="First slide">
@@ -441,4 +449,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script>
+        function showMenu(flag){
+            let menu = document.querySelector('.mob-sub-menu')
+            if (flag) {
+                menu.classList.remove('close-animation');
+                menu.style.display = 'flex';
+            }
+            else menu.classList.add('close-animation');
+        }
+
+    </script>
 </html>
