@@ -40,7 +40,7 @@
 .clg-nav-name,
 .clg-nav-sub-name {
     font-weight: bold;
-    color: #34469d;
+    color: var(--theme-color);
     transition: 0.5s;
 }
 
@@ -119,7 +119,7 @@
 
 .nav-items:hover {
     color: white;
-    background-color: #34469d;
+    background: var(--bg-gradient);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -134,7 +134,7 @@
     font-size: 0.8em;
     margin-top: 5px;
     white-space: normal;
-    background-color: var(--theme-color);
+    background: var(--bg-gradient);
     left: 0;
     z-index: 10;
 }
