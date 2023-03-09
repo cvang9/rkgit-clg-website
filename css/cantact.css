@@ -2,7 +2,7 @@
     background-color: #34469d;
     color: white;
     font-family: Raleway, sans-serif;
-    background: url('https://www.gehealthcare.in/-/jssmedia/global/products/images/clinical-view/background_blue.jpg?h=1080&iar=0&w=1920&rev=e10a4cc4c76344bf818ea0bc8671eba5&hash=3706E51C1D9426A783E16E75950A2635') center no-repeat;
+    background: var(--bg-gradient);
     background-size: cover;
     padding-bottom: 2rem;
 }
