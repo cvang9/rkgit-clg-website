@@ -4,7 +4,7 @@
     font-size: 12px;
     font-weight: bold;
     padding: 2px 10px;
-    background: var(--theme-color);
+    background: var(--bg-gradient);
     color: white;
     transition: 0.5s;
 }
@@ -39,7 +39,7 @@
 .clg-nav-name,
 .clg-nav-sub-name {
     font-weight: bold;
-    color: #34469d;
+    color: var(--theme-color);
     transition: 0.5s;
 }
 
@@ -113,7 +113,7 @@
 
 .nav-items:hover {
     color: white;
-    background-color: #34469d;
+    background: var(--bg-gradient);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -130,7 +130,7 @@
     font-size: 0.8em;
     left: 0;
     white-space: normal;
-    background-color: var(--theme-color);
+    background: var(--bg-gradient);
     z-index: 10;
 }
 
