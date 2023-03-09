@@ -58,8 +58,15 @@
     padding: 0px 10px;
     gap: 10px;
     justify-content: center;
-    box-shadow: 0 20px 15px rgb(0 0 0 / 10%);
+    box-shadow: 0 20px 15px rgb(0 0 0 / 5%);
     margin-bottom: 2px;
+}
+.nav-cont{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9;
 }
 
 .clg-navigation-items::-webkit-scrollbar {
@@ -248,11 +255,6 @@
 @media screen and (max-width: 900px) {
     .clg-navigation-items {
         justify-content: end;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-        background-color: white;
-        z-index: 9;
         /* background: linear-gradient(to right, var(--theme-color) 80%,rgb(133, 135, 247) ); */
     }
 
