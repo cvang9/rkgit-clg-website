@@ -76,6 +76,7 @@
 }
 
 @media screen and (max-width: 1000px) {
+
     .ring,
     .company-contianer,
     .companies {
@@ -104,21 +105,25 @@
         width: 100%;
     }
 }
-@media screen and (min-width: 1000px){
-    .companies-hiring{
+
+@media screen and (min-width: 1000px) {
+    .companies-hiring {
         background: url('../res/image/galaxy.jpg') center no-repeat;
         background-size: cover;
         color: white;
     }
-    .ring{
+
+    .ring {
         background: url('../res/image/earth.jpg') center no-repeat;
         background-size: 1732px;
     }
-    .companies-hiring-banner{
-        background: linear-gradient(180deg, transparent,rgb(0, 0, 0) 90%);
+
+    .companies-hiring-banner {
+        background: linear-gradient(180deg, transparent, rgb(0, 0, 0) 90%);
         top: 423px;
     }
-    .ring-banner h3{
+
+    .ring-banner h3 {
         font-size: 3rem;
         text-shadow: 3px 3px 10px black;
         font-weight: 700;

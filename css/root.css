@@ -44,33 +44,61 @@ body {
 
 @keyframes slideToLeft {
     0% {
-        opacity: 0%;
-        transform: translateX(100%);
+        width: 0px;
     }
+
     100% {
-        opacity: 100%;
+        width: 260px;
+        display: flex;
+    }
+}
+
+@keyframes slideToRight {
+    0% {
+        width: 260px;
+    }
+
+    100% {
+        width: 0px;
     }
 }
 
 .admission-card {
-    width: 350px;
+    width: 260px;
     height: 260px;
     position: fixed;
     bottom: 0px;
     right: 0px;
-    background: var(--bg-gradient);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 7px;
+    margin-bottom: 20px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    display: flex;
     z-index: 10;
     box-shadow: 0px 0px 10px grey;
-    color: white;
-    animation: slideToLeft 0.2s linear;
+    border-radius: 5px;
+    animation: slideToRight 0.2s linear forwards;
 }
 
-@media screen and (max-width: 400px) {
-    .admission-card {
-        width: 290px;
-        margin: 15px;
-    }
+.admission-card span {
+    width: 117px;
+    rotate: -90deg;
+    position: absolute;
+    top: 50px;
+    left: -80px;
+    background-color: #00c1a1;
+    padding: 12px;
+    border: 1px solid #00c1a1;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.admission-card-holder {
+    width: 260px;
+    height: 260px;
+    border: 10px solid white;
+    background-color: #00c1a1;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
