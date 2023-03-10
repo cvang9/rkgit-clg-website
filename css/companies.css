@@ -145,4 +145,7 @@
         text-shadow: 3px 3px 10px black;
         font-weight: 700;
     }
+    .ring{
+        margin-top: 50px;
+    }
 }
