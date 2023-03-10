@@ -95,6 +95,23 @@
         height: 67px;
         margin: 6px 12px;
     }
+    .companies-hiring{
+        background: var(--bg-gradient);
+        color: white;
+    }
+    .section-title-main h2{
+        margin-bottom: 0rem !important;
+    }
+    .section-title-main h2::after,
+    .section-title-main h2::before{
+        background-color: white;
+    }
+    .company-banner-cont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 410px) {

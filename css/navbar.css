@@ -196,6 +196,7 @@
 
 .mob-sub-menu {
     display: none;
+    overflow-y: scroll;
 }
 
 .mob-sub-menu ul {
@@ -249,6 +250,13 @@
         width: 0px;
         display: none;
     }
+}
+.mob-sub-ul li ul{
+    list-style: disc;
+}
+.mob-sub-ul li ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 /* end  */
