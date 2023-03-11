@@ -288,13 +288,18 @@
         font-size: 7px;
     }
 
+    .clg-nav-logo {
+        gap: 5px;
+    }
+
     .clg-nav-logo-banner {
         padding: 5px;
+        gap: 3px;
     }
 
     .clg-nav-logo-img {
-        width: 30px;
-        height: 30px;
+        width: 37px;
+        height: 37px;
     }
 
     .clg-nav-name {
