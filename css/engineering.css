@@ -1,0 +1,90 @@
+.introduction-banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.introduction-heading {
+    position: absolute;
+    margin: 100px;
+}
+
+.introduction-heading h1,
+.introduction-heading span {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+@media screen and (max-width: 768px) {
+    .introduction-banner img {
+        height: 200px;
+    }
+
+    .introduction-heading {
+        margin: 40px;
+    }
+}
+
+.dean-section {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.dean-pic {
+    position: relative;
+}
+
+.dean-pic img {
+    width: 300px;
+    height: 300px;
+}
+
+.dean-pic span {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #00c1a1;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+
+.dean-message {
+    padding: 20px;
+}
+
+.dean-message p {
+    height: 200px;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 550px) {
+    .dean-section {
+        flex-direction: column;
+    }
+
+    .dean-pic img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.sub-dep-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.sub-dep {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .sub-dep-section {
+        grid-template-columns: auto;
+    }
+}
