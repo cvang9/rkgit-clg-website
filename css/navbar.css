@@ -64,7 +64,7 @@
 .nav-cont{
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
+    top: -1px;
     background-color: white;
     z-index: 9;
 }
