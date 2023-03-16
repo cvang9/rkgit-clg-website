@@ -8,7 +8,7 @@
     border-top: 4px solid #00008B;
     border-bottom: 1px solid #ccc;
     font-size: 18px;
-    color: #454646;
+    color: white;
     line-height: 30px;
     position: relative;
 }
@@ -38,13 +38,13 @@
 .testimonial .title{
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
     margin: 0 0 10px 0;
 }
 .testimonial .post{
     display: block;
     font-size: 14px;
-    color: #00008B;
+    color: gray;
 }
 .owl-theme .owl-controls{
     margin-top: 30px;
@@ -57,4 +57,11 @@
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background: #00008B;
+}
+.test{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://127.0.0.1:5500/res/image/img5.jpg') no-repeat fixed;
+    background-size: cover;
+}
+.section-title-main h2{
+    color: white;
 }
