@@ -59,7 +59,7 @@
     background: #00008B;
 }
 .test{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://127.0.0.1:5500/res/image/img5.jpg') no-repeat fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../res/image/img5.jpg') no-repeat fixed;
     background-size: cover;
 }
 .section-title-main h2{
