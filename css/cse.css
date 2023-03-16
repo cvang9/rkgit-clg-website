@@ -1,0 +1,33 @@
+
+.nav-sec header{
+    padding: 0.8rem;
+    border: 1px solid #e5e5e5;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.nav-sec ul{
+    list-style: none;
+    padding: 0;
+}
+.nav-sec ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-sec ul li{
+    padding: 10px;
+    border: 1px solid #e5e5e5 ;
+    border-top: 0;
+    transition: 0.1s;
+}
+.nav-sec ul li:hover{
+    color: white;
+    background-color: rgb(97, 116, 223);
+}
+.nav-sec ul li:hover a{
+    color: white;
+}
+@media screen and (max-width: 956px){
+    .secondary-nav{
+        display: none;
+    }
+}
