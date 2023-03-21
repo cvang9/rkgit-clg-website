@@ -59,7 +59,6 @@
     gap: 10px;
     justify-content: center;
     box-shadow: 0 20px 15px rgb(0 0 0 / 5%);
-    margin-bottom: 2px;
 }
 .nav-cont{
     position: sticky;
@@ -334,3 +333,6 @@
         font-size: 2.5rem;
     }
 }
+/* background: linear-gradient(180deg, rgb(8 75 143 / 90%) 30%, rgb(6 80 153 / 100%));
+    color: white; 
+    text-shadow: 1px 4px 2px #24242e; */
