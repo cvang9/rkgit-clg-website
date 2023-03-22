@@ -11,7 +11,8 @@
     cursor: pointer;
 }
 .box:nth-child(1){
-    background: linear-gradient(90deg, #122a4b, #0b4380) center no-repeat;
+    background: linear-gradient(90deg, #a0a314, #dcdf09) center no-repeat
+    /* background: linear-gradient(90deg, #122a4b, #0b4380) center no-repeat; */
 }
 .box:nth-child(2){
     background: linear-gradient(90deg, #097c1d, #1dd03f) center no-repeat;
@@ -20,7 +21,8 @@
     background: linear-gradient(90deg, #045d86, #0ab4df) center no-repeat;
 }
 .box:nth-child(4){
-    background: linear-gradient(90deg, #a86704, #ec9006) center no-repeat;
+    background: linear-gradient(90deg, #a32b17, #dd3711) center no-repeat;
+    /* background: linear-gradient(90deg, #a86704, #ec9006) center no-repeat; */
 }
 .social-icons{
     z-index: 8;
