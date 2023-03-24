@@ -14,7 +14,7 @@
   }
 
   .bgd{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../res/image/img4.jpg') no-repeat fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../res/image/img4.JPG') no-repeat fixed;
     background-size: cover;
 }
   
