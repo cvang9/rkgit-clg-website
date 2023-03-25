@@ -182,7 +182,7 @@ body {
     position: fixed;
     top: 0;
     height: 50vh;
-    width: 50vw;
+    width: 80vw;
     background-color: #122a4b;
     transform: translate(50%,50%);
     z-index: 20;
