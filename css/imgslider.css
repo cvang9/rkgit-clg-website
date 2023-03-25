@@ -1,0 +1,9 @@
+.clg-img-text{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 3px 3px 8px gray;
+    font-family: 'Rubik Mono One', sans-serif;
+}

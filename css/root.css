@@ -145,10 +145,18 @@ body {
     background: linear-gradient(0deg, rgb(232 236 243 / 70%), rgb(235 238 239 / 99%)), url(https://www.onlygfx.com/wp-content/uploads/2021/07/cartoon-cloud-sky-background-4-cover.jpg) no-repeat center;
     background-size: cover;
 }
+@media screen and (max-width: 900px) {
+    .card-hover:nth-child(1):hover{
+        transform: scale(1.06) translateX(0px);
+    }
+    .card-hover:nth-child(3):hover{
+        transform: scale(1.06) translateX(0px);
+    }
+}
 /* ------------------------*/
 #progress {
     position: fixed;
-    bottom: 8%;
+    bottom: 10%;
     right: 10%;
     height: 50px;
     width: 50px;
