@@ -59,7 +59,7 @@
 .box:last-child{
     border-radius: 0px 0 20px 0;
 }
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .social-icons{
         top: 60%;
         user-select: none;
