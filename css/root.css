@@ -184,7 +184,7 @@ body {
     height: 50vh;
     width: 80vw;
     background-color: #122a4b;
-    transform: translate(50%,50%);
+    transform: translate(15%,50%);
     z-index: 20;
     display: flex;
     justify-content: center;
