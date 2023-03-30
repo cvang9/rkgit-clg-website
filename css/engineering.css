@@ -88,3 +88,16 @@
         grid-template-columns: auto;
     }
 }
+
+.section-switcher {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.section-switcher a {
+    white-space: nowrap;
+}
