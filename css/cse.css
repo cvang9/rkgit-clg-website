@@ -26,6 +26,9 @@
 .nav-sec ul li:hover a{
     color: white;
 }
+.dep-cont{
+    padding-right: 1rem;
+}
 @media screen and (max-width: 956px){
     .secondary-nav{
         display: none;
