@@ -339,3 +339,31 @@
 /* background: linear-gradient(180deg, rgb(8 75 143 / 90%) 30%, rgb(6 80 153 / 100%));
     color: white; 
     text-shadow: 1px 4px 2px #24242e; */
+
+.clg-nav-estd {
+    margin-left: 10px;
+    align-self: flex-end;
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1400px) {
+    .clg-nav-estd {
+        font-size: 10px;
+        /* align-self: center; */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .clg-nav-estd {
+        margin-left: 0px;
+        font-size: 10px;
+        align-self: self-start;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .clg-nav-estd {
+        font-size: 7px;
+    }
+}
