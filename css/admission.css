@@ -140,3 +140,23 @@
     padding: 15px 20px;
     text-transform: uppercase;
   }
+
+  .whocanapplygallery {
+    margin-top: 70px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .whocanapplygallery {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .whocanapplygallery {
+      grid-template-columns: auto;
+    }
+  }
