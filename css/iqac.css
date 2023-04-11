@@ -1,0 +1,61 @@
+:root{
+    --toggle-icon: '+ ';
+    --icon-color: rgb(33, 33, 156);
+}
+.iqac-banner{
+    height: 40vh;
+    background: linear-gradient(to left,rgba(0,0,0, 0) -18%,rgb(28 25 32) 111%), url(../res/image/img8.JPG) center no-repeat;
+    background-size: cover;
+}
+.iqac-content{
+    padding: 2rem;
+}
+.iqac-banner span{
+    margin-left: 10%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 1px 2px 5px black;
+}
+.sub-content{
+    width: 80vw;
+    margin-top: 1rem;
+}
+.sub-content-list{
+    list-style: none;
+    padding: 0;
+    outline: 1px solid rgb(177, 172, 172);
+}
+.sub-content-list > li:not(:last-child){
+    border-bottom: 1px solid rgb(177, 172, 172);
+}
+.sub-content-list > li{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 0 1rem 0 1rem;
+    padding: 1rem 1rem 1rem 0;
+    user-select: none;
+}
+.sub-content-list > li::before{
+    content: var(--toggle-icon);
+    color: var(--icon-color);
+    font-size: 1.5rem;
+}
+.sub-content-list li ul{
+    list-style: disc;
+    overflow: hidden;
+    font-size: large;
+    font-weight: 400;
+    margin: 1rem 0 1rem 2rem;
+    display: none;
+    animation: expand 0.5s linear forwards;
+    white-space: nowrap;
+}
+@keyframes expand {
+    0%{
+        max-height: 0;
+    }
+    100%{
+        max-height: 1000px;
+    }
+}
