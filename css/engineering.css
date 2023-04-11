@@ -21,7 +21,7 @@
     }
 
     .introduction-heading {
-        margin: 40px;
+        margin: 30px;
     }
 }
 
@@ -96,7 +96,7 @@
     overflow-x: auto;
     border: 1px solid grey;
     border-radius: 10px;
-    background-color: #122a4b;
+    background-color: #485a73;
 }
 
 .section-switcher a {
