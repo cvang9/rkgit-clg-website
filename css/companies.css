@@ -149,3 +149,10 @@
         margin-top: 50px;
     }
 }
+
+@media screen and (max-width: 560px) {
+    .cl{
+        margin-left: 120px;
+        margin-bottom: 10px;
+    }
+  }
