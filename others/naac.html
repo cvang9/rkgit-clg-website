@@ -373,45 +373,299 @@
                 <div class="nav-sec">
                     <header>NAAC</header>
                     <ul>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">DVV clarification</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">Objective</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">Mission</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">HOD Message</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#facultyandachivement">Faculty</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#facultyandachivement">Awards &
-                                Achievements</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#facultyandachivement">Gallery</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#researchpub">Research & Publications</a>
-                        </li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#researchpub">Industry Connect</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#researchpub">Placement</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#researchpub">Testimonial</a></li>
-                        <li><i class="bi bi-arrow-right-short"></i> <a href="#researchpub">Social Links</a></li>
+                        <li onclick="showTable('col-1',this.id)" id="r-1"><i class="bi bi-arrow-right-short"></i> <a href="#">Extended Profile</a></li>
+                        <li onclick="showTable('col-2',this.id)" id="r-2"><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">Criterion 1</a></li>
+                        <li onclick="showTable('col-3',this.id)" id="r-3"><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">Criterion 2</a></li>
+                        <li onclick="showTable('col-4',this.id)" id="r-4"><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">Criterion 3</a></li>
+                        <li onclick="showTable('col-5',this.id)" id="r-5"><i class="bi bi-arrow-right-short"></i> <a href="#about-dep">Criterion 4</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col ml-3 details">
-                <table class="table table-bordered w-100">
+                <table id="col-1" class="table table-bordered w-100 t-w">
                     <thead>
                       <tr>
-                        <th scope="row" colspan="2">Lorem ipsum dolor sit amet.</th>
+                        <th class="t-w" scope="row" style="border-bottom: 0;" colspan="2">Extended Profile</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
-                        <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, sit! Voluptas voluptatem, necessitatibus quisquam nulla harum ducimus quia quibusdam expedita.</td>
+                        <th>Students</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">1.1</th>
+                        <td>1.1	Number of students year wise during the last five year</td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, officia.</td>
+                        <th>Teachers</th>
                       </tr>
                       <tr>
-                        <th scope="row">3</th>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iste reiciendis sapiente rem ipsam, deleniti magnam, assumenda odio amet provident sed. Libero voluptatem ipsam nemo.</td>
+                          <th scope="row">2.1</th>
+                        <td>Number of full time teachers during the last five years</td>
                       </tr>
-                    </tbody>
+                      <tr>
+                          <th scope="row">2.2</th>
+                          <td>Number of full time teachers year wise during the last five years</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <th>Expenditure</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.1</th>
+                          <td>Expenditure excluding salary component year wise during the last five years (INR in lakhs)</td>
+                        </tr>
+                        
+                      
+                </tbody>
                   </table>
+
+                <table id="col-2" class="table table-bordered w-100">
+                    <thead>
+                      <tr>
+                        <th class="t-w" scope="row" style="border-bottom: 0;" colspan="2">Criterion 1 - Curricular Aspects</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1.1</th>
+                        <th>Curricular Planning and Implementation</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">1.1.1</th>
+                        <td>The Institution ensures effective curriculum planning and delivery through a well-planned and documented process including Academic calendar and conduct of continuous internal Assessment.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1.2.1</th>
+                        <td>Number of Add on /Certificate/Value added programs offered and online MOOC programs like SWAYAM, NPTEL etc. where the students of the institution have benefitted during the last five years.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1.2.2</th>
+                        <td>Percentage of students enrolled in Certificate/ Add-on/Value added programs and also completed online MOOC programs like SWAYAM, NPTEL etc.as against the total number of students during the last five years</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.3</th>
+                        <th>Curriculum Enrichment</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.3.1</th>
+                        <td>Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability in transacting the Curriculum.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.3.2</th>
+                        <td>Percentage of students undertaking project work/field work/ internships (Data for the latest completed academic year)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.4</th>
+                        <th>Feedback System</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">1.4.1</th>
+                        <td>Institution obtains feedback on the academic performance and ambience of the institution from various stakeholders, such as Students, Teachers, Employers, Alumni etc. </td>
+                    </tr>
+                </tbody>
+                  </table>
+                  <table id="col-3" class="table table-bordered w-100 t-w">
+                    <thead>
+                      <tr>
+                        <th class="t-w" scope="row" style="border-bottom: 0;" colspan="2">Criterion 2 - Teaching- Learning and Evaluation</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">2.1</th>
+                        <th>Student Enrolment and Profile</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">2.1.1</th>
+                        <td>Enrolment percentage</td>
+                      </tr>
+                      <tr>
+                      <tr>
+                          <th scope="row">2.1.2 </th>
+                        <td>Percentage of seats filled against seats reserved for various categories (SC, ST, OBC, etc. as per applicable reservation policy) during the last five years (Exclusive of supernumerary seats)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2.2</th>
+                        <th>Student Teacher Ratio</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">2.2.1 </th>
+                          <td>Student - Full time Teacher Ratio (Data for the latest completed academic year)</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.3</th>
+                          <th>Teaching- Learning Process</th>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.3.1 </th>
+                          <td>Student centric methods, such as experiential learning, participative learning and problem solving methodologies are used for enhancing learning experiences using ICT tools.</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.4</th>
+                          <th>Teacher Profile and Quality</th>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.4.1 </th>
+                          <td>Percentage of full-time teachers against sanctioned posts during the last five years.</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.4.2 </th>
+                          <td>Percentage of full time teachers with NET/SET/SLET/ Ph. D./D.Sc. / D.Litt. during the last five years (consider only highest degree for count)</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.5</th>
+                          <th>Evaluation Process and Reforms</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.5.1</th>
+                          <td>Mechanism of internal/ external assessment is transparent and the grievance redressal system is time- bound and efficient</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.6</th>
+                          <th>Student Performance and Learning Outcome</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.6.1</th>
+                          <td>Mechanism of internal/ external assessment is transparent and the grievance redressal system is time- bound and efficient</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.6.2</th>
+                            <td>Attainment of POs and COs are evaluated</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.6.3</th>
+                            <td>Pass percentage of Students during last five years</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2.7</th>
+                          <th>Student Satisfaction Survey</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.7.1</th>
+                          <td>Online student satisfaction survey regarding to teaching learning process. (Online survey to be conducted)</td>
+                        </tr>
+                        
+                </tbody>
+                  </table>
+
+                  <table id="col-4" class="table table-bordered w-100 t-w">
+                    <thead>
+                      <tr>
+                        <th class="t-w" scope="row" style="border-bottom: 0;" colspan="2">Criterion 3 - Research, Innovations and Extension</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">3.1</th>
+                        <th>Resource Mobilization for Research</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">3.1.1</th>
+                        <td>Grants received from Government and non-governmental agencies for research projects / endowments in the institution during the last five years (INR in Lakhs)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3.2</th>
+                        <th>Innovation Ecosystem</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">3.2.1 </th>
+                        <td>Institution has created an ecosystem for innovations and has initiatives for creation and 	 of knowledge (patents filed, published, incubation center facilities in the HEI to be considered)</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">3.2.2 </th>
+                          <td>Number of workshops/seminars/conferences including on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship conducted during the last five years</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3.3</th>
+                          <th>Research Publication and Awards</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.3.1</th>
+                          <td>Number of research papers published per teacher in the Journals notified on UGC care list during the last five years</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.3.2</th>
+                          <td>Number of books and chapters in edited volumes/books published and papers published in national/ international conference proceedings per teacher during last five years</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.4</th>
+                            <th>Extension Activities</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.4.1</th>
+                          <td>Extension activities are carried out in the neighborhood community, sensitizing students to social issues, for their holistic development, and impact thereof during the last five years.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.4.2</th>
+                          <td>Awards and recognitions received for extension activities from government / government recognised bodies</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.5</th>
+                            <th>Collaboration</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.5.1</th>
+                          <td>The number of MoUs, collaborations/linkages for Faculty exchange, Student exchange, Internship, Field project, On-thejob training, research and other academic activities during the last five years</td>
+                        </tr>
+                </tbody>
+                  </table>
+
+                  <table id="col-5" class="table table-bordered w-100 t-w">
+                    <thead>
+                      <tr>
+                        <th class="t-w" scope="row" style="border-bottom: 0;" colspan="2">Criterion 4 - Research, Innovations and Extension</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">4.1</th>
+                        <th>Physical Facilities</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">4.1.1</th>
+                        <td>Availability of adequate infrastructure and physical facilities viz., classrooms, laboratories, ICT infrastructure, facilities for cultural and sports activities, gymnasium, yoga centre etc. in the institution</td>
+                      </tr>
+                      <tr>
+                      <tr>
+                          <th scope="row">4.1.2</th>
+                        <td>Percentage of expenditure, excluding salary for infrastructure augmentation during last five years (INR in Lakhs)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4.2</th>
+                        <th>Library as a learning Resource</th>
+                      </tr>
+                      <tr>
+                          <th scope="row">4.2.1 </th>
+                          <td>Library automation using Integrated Library Management System (ILMS), subscription to e-resources including provision of links to OER repositories, amount spent on purchase of books, journals and usage of library</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4.3</th>
+                          <th>IT Infrastructure</th>
+                        </tr>
+                        <tr>
+                          <th scope="row">4.3.1 </th>
+                          <td>Institution frequently updates its IT facilities and provides sufficient bandwidth for internet connection</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4.3.2 </th>
+                          <td>Student - Computer ratio (Data for the latest completed academic year)</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4.4</th>
+                          <th>Maintenance of Campus Infrastructure</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">4.4.1</th>
+                          <td>Percentage of expenditure incurred on maintenance of infrastructure (physical and academic support facilities) excluding salary component during the last five years (INR in Lakhs)</td>
+                        </tr>
+                        
+                </tbody>
+                  </table>
+
+                  
             </div>
         </div>
     </div>
@@ -540,6 +794,7 @@
 <script src="../../js/navbar.js"></script>
 <script src="../../js/goals.js"></script>
 <script src="../../js/root.js"></script>
+<script src="../../js/naac.js"></script>
 <script src="../../js/topbutton.js"></script>
 <!-- Scripts -->
 
