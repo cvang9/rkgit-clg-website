@@ -20,8 +20,8 @@
     transition: 0.1s;
 }
 .nav-sec ul li:hover{
-    color: white;
-    background-color: rgb(97, 116, 223);
+    color: white!important;
+    background-color: rgb(97, 116, 223)!important;
 }
 .nav-sec ul li:hover a{
     color: white;

@@ -210,3 +210,17 @@ body {
   .copyright{
     user-select: none;
   }
+  .details > table{
+    display: none;
+  }
+  
+.active-table{
+    background-color: rgb(97, 116, 223)!important;
+    color: white !important;
+  }
+.active-table a{
+    color: white !important;
+  }
+.t-w{
+    width: 82vw !important;  /* for fixed width of table */
+}
